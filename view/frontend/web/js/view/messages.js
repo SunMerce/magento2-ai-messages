@@ -69,7 +69,7 @@ define([
             }
             else {
                 const aiModel =  ai.languageModel.create({
-                    systemPrompt: 'You are a text translator, you replace system message with famous movie quote that delivers similar message. You simply answer the quote with movie name after, no additional information is needed',
+                    systemPrompt: 'You are a text translator, you replace website message for customers with famous movie quote that delivers similar message for fun. You simply answer the quote and also the movie name that this quote was from, no additional information is needed',
                 });
                 aiModel.then(function(session){
                     for (const message of messages){
