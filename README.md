@@ -15,3 +15,4 @@ See chrome docs to enable built-in AI https://developer.chrome.com/docs/ai/get-s
 
 ### preview
 
+[preview.webm](https://github.com/user-attachments/assets/4168d68d-b1c6-425b-bf5e-c07a65a5600e)
