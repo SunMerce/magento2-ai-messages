@@ -68,10 +68,7 @@ define([
                 this.messages({'messages': messages});
             }
             else {
-                const aiModel =  ai.languageModel.create({
-                    systemPrompt: 'You are a text translator, you replace website message for customers with famous movie quote that delivers similar message for fun. You simply answer the quote and also the movie name that this quote was from, no additional information is needed',
-                });
-                aiModel.then(function(session){
+                this.aiModel.then(function(session){
                     for (const message of messages){
                         const msgTransformer = session.prompt(message.text);
                         msgTransformer.then(function(res){
